@@ -1,0 +1,6 @@
+com\senai\barbearia\repository\Conexao.class
+com\senai\barbearia\service\TokenService.class
+com\senai\barbearia\BarbeariaApplication.class
+com\senai\barbearia\repository\UsuarioRepository.class
+com\senai\barbearia\service\AuthService.class
+com\senai\barbearia\controller\AuthController.class
