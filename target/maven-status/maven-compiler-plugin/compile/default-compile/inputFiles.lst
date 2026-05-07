@@ -1,6 +1,11 @@
 C:\Users\Aluno\Desktop\barbearia-jwt\src\main\java\com\senai\barbearia\BarbeariaApplication.java
 C:\Users\Aluno\Desktop\barbearia-jwt\src\main\java\com\senai\barbearia\controller\AuthController.java
+C:\Users\Aluno\Desktop\barbearia-jwt\src\main\java\com\senai\barbearia\controller\BarbeariaController.java
+C:\Users\Aluno\Desktop\barbearia-jwt\src\main\java\com\senai\barbearia\controller\TokenInterceptor.java
+C:\Users\Aluno\Desktop\barbearia-jwt\src\main\java\com\senai\barbearia\model\LoginRequest.java
 C:\Users\Aluno\Desktop\barbearia-jwt\src\main\java\com\senai\barbearia\repository\Conexao.java
 C:\Users\Aluno\Desktop\barbearia-jwt\src\main\java\com\senai\barbearia\repository\UsuarioRepository.java
 C:\Users\Aluno\Desktop\barbearia-jwt\src\main\java\com\senai\barbearia\service\AuthService.java
 C:\Users\Aluno\Desktop\barbearia-jwt\src\main\java\com\senai\barbearia\service\TokenService.java
+C:\Users\Aluno\Desktop\barbearia-jwt\src\main\java\com\senai\barbearia\WebConfig.java
+C:\Users\Aluno\Desktop\barbearia-jwt\src\main\java\gerador\de\chave\GeradorDeChave.java

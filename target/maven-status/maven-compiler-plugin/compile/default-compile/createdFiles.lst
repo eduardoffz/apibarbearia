@@ -2,5 +2,10 @@ com\senai\barbearia\repository\Conexao.class
 com\senai\barbearia\service\TokenService.class
 com\senai\barbearia\BarbeariaApplication.class
 com\senai\barbearia\repository\UsuarioRepository.class
+com\senai\barbearia\model\LoginRequest.class
+com\senai\barbearia\controller\TokenInterceptor.class
+com\senai\barbearia\WebConfig.class
 com\senai\barbearia\service\AuthService.class
+gerador\de\chave\GeradorDeChave.class
 com\senai\barbearia\controller\AuthController.class
+com\senai\barbearia\controller\BarbeariaController.class

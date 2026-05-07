@@ -14,14 +14,19 @@ public class AuthController {
     @Autowired
     private AuthService authService;
 
-    /*
-     * Rota: POST /login
-     * Params: email, senha
-     * Retorna: token JWT se credenciais válidas
-     *
-     * Exemplo de chamada:
-     * POST http://localhost:8080/login?email=admin@barbearia.com&senha=123456
-     */
+    @PostMapping("/register")
+    public ResponseEntity<String> register(@RequestParam String email,
+                                           @RequestParam String senha) {
+        try {
+            authService.registrar(email, senha);
+            return ResponseEntity.status(HttpStatus.CREATED).body("Usuario cadastrado com sucesso.");
+        } catch (RuntimeException e) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
+        }
+    }
+
+    
+    
     @PostMapping("/login")
     public ResponseEntity<String> login(@RequestParam String email,
                                         @RequestParam String senha) {

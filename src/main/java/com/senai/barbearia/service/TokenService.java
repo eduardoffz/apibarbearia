@@ -13,9 +13,12 @@ import org.springframework.stereotype.Service;
 @Service
 public class TokenService {
 
+    
+    
     @Value("${api.security.token.secret}")
     private String secret;
 
+    
     private SecretKey getSignKey() {
         byte[] keyBytes = Decoders.BASE64.decode(this.secret);
         return Keys.hmacShaKeyFor(keyBytes);
@@ -25,7 +28,7 @@ public class TokenService {
         return Jwts.builder()
                 .subject(email)
                 .issuedAt(new Date())
-                // expira em 1 hora
+                // expira em 1 hora teste do metodo do medium  
                 .expiration(new Date(System.currentTimeMillis() + 3600000))
                 .signWith(getSignKey())
                 .compact();
@@ -38,6 +41,7 @@ public class TokenService {
                     .build()
                     .parseSignedClaims(token);
             return true;
+            
         } catch (JwtException | IllegalArgumentException e) {
             return false;
         }
