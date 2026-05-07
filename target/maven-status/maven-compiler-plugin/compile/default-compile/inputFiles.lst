@@ -1,6 +1,11 @@
-C:\Users\Aluno\Desktop\barbearia-jwt\src\main\java\com\senai\barbearia\BarbeariaApplication.java
-C:\Users\Aluno\Desktop\barbearia-jwt\src\main\java\com\senai\barbearia\controller\AuthController.java
-C:\Users\Aluno\Desktop\barbearia-jwt\src\main\java\com\senai\barbearia\repository\Conexao.java
-C:\Users\Aluno\Desktop\barbearia-jwt\src\main\java\com\senai\barbearia\repository\UsuarioRepository.java
-C:\Users\Aluno\Desktop\barbearia-jwt\src\main\java\com\senai\barbearia\service\AuthService.java
-C:\Users\Aluno\Desktop\barbearia-jwt\src\main\java\com\senai\barbearia\service\TokenService.java
+C:\Users\Aluno\Desktop\apibarbearia-projetoProfessor\src\main\java\barbosa\com\apijwt\ApijwtApplication.java
+C:\Users\Aluno\Desktop\apibarbearia-projetoProfessor\src\main\java\barbosa\com\apijwt\controller\TesteController.java
+C:\Users\Aluno\Desktop\apibarbearia-projetoProfessor\src\main\java\barbosa\com\apijwt\repository\Conexao.java
+C:\Users\Aluno\Desktop\apibarbearia-projetoProfessor\src\main\java\barbosa\com\apijwt\service\TokenService.java
+C:\Users\Aluno\Desktop\apibarbearia-projetoProfessor\src\main\java\com\senai\barbearia\BarbeariaApplication.java
+C:\Users\Aluno\Desktop\apibarbearia-projetoProfessor\src\main\java\com\senai\barbearia\controller\AuthController.java
+C:\Users\Aluno\Desktop\apibarbearia-projetoProfessor\src\main\java\com\senai\barbearia\repository\Conexao.java
+C:\Users\Aluno\Desktop\apibarbearia-projetoProfessor\src\main\java\com\senai\barbearia\repository\UsuarioRepository.java
+C:\Users\Aluno\Desktop\apibarbearia-projetoProfessor\src\main\java\com\senai\barbearia\service\AuthService.java
+C:\Users\Aluno\Desktop\apibarbearia-projetoProfessor\src\main\java\com\senai\barbearia\service\TokenService.java
+C:\Users\Aluno\Desktop\apibarbearia-projetoProfessor\src\main\java\gerador\de\chave\GeradorDeChave.java

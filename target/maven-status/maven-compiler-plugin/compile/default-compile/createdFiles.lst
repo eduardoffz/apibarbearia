@@ -1,6 +1,11 @@
+barbosa\com\apijwt\controller\TesteController.class
 com\senai\barbearia\repository\Conexao.class
 com\senai\barbearia\service\TokenService.class
 com\senai\barbearia\BarbeariaApplication.class
 com\senai\barbearia\repository\UsuarioRepository.class
 com\senai\barbearia\service\AuthService.class
+gerador\de\chave\GeradorDeChave.class
+barbosa\com\apijwt\ApijwtApplication.class
+barbosa\com\apijwt\service\TokenService.class
 com\senai\barbearia\controller\AuthController.class
+barbosa\com\apijwt\repository\Conexao.class
